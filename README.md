@@ -8,9 +8,9 @@ Browser-based tool for reviewing award recipients, updating selections, saving t
 2. Select **Load Award Selection workbook** and choose the current `.xlsx` workbook. The app reads the `Award Selection` worksheet and imports its categories, entry counts, and recipient values.
 3. Edit any recipient field. Blank values remain marked **Pending**.
 4. Choose **Save selections** to save in the browser profile on that device. Search and status filters help review the list.
-5. Select the eight panel photos in the order shown on the page, then choose **Print / Save as PDF**. Printing uses A4 portrait: the award list is on page one and the signature blocks are on page two.
+5. Enter the evaluation panel members’ names and roles, select the eight panel photos in the same order as the cards, then choose **Print / Save as PDF**. Printing uses A4 portrait: the award list is on page one and the signature blocks are on page two.
 
-The app does not upload the workbook or photos. Recipient changes are stored in browser `localStorage`; the panel photos are held as temporary local object URLs for the current page session. Save a fresh copy of the workbook or print/PDF if you need a portable record.
+The app does not upload the workbook or photos. Recipient changes and panel names/roles are stored in browser `localStorage`; the panel photos are held as temporary local object URLs for the current page session. Save a fresh copy of the workbook or print/PDF if you need a portable record.
 
 ## Authentication and request flow
 
